@@ -1,0 +1,150 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff4e5; 
+}
+
+.d-flex {
+    align-items: center;
+    justify-content: center; 
+}
+
+
+.video-header {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 50vh; 
+}
+
+.image-effect img {
+    transition: transform 0.3s ease;
+}
+
+.image-effect img:hover {
+    transform: scale(1.1);
+}
+
+.image-effect {
+    height: 250px;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-effect img {
+    width: auto; 
+    height: 100%;
+}
+
+
+
+h1:hover, h2:hover {
+    color: #ffd900;
+    transition: color 0.5s ease;
+}
+
+
+
+h1 {
+    animation: rainbow-text 5s infinite;
+}
+
+video {
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+video:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+
+
+#myVideo {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; 
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1; 
+}
+
+
+
+.hero-image {
+    background-image: url("ruta/a/imagen-cafe.jpg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+.nav-link {
+    color: #ffeead !important;
+}
+
+.bg-dark {
+    background-color: #6f4e37 !important; 
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.video-logo {
+    border-radius: 8px; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+}
+
+
+p {
+    text-align: justify; 
+    line-height: 1.6; 
+}
+
+@media (max-width: 767px) {
+    .video-logo {
+        max-width: 100%;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+}
+
+@media (max-width: 767px) {
+ 
+}
+
+@media (min-width: 992px) {
+
+}
